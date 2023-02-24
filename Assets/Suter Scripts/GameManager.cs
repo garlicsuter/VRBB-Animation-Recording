@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Animator jumpyArrow;
-
-    public void PlayJumpyArrow()
+    // Start is called before the first frame update
+    void Start()
     {
-        jumpyArrow.enabled = true;
-        jumpyArrow.Play("Arrow_jumpy");
-        Debug.Log("Played Arrow_jumpy");
+        
     }
 
-    public void StopJumpyArrow()
+    // Update is called once per frame
+    void Update()
     {
-        jumpyArrow.enabled = false;
-        Debug.Log("Stopped Arrow_jumpy");
+        
     }
 }
